@@ -1,16 +1,29 @@
+:root {
+    --accent: #add8e6;
+    --accent-light: #F0F7F9;
+}
+
 html {
     font-family: 'Segoe UI', "Open Sans", sans-serif, Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--accent-light);
 }
 
 body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0 1rem;
 }
 
 header {
     display: flex;
+    justify-content: center;
     gap: 1rem;
+    padding: 1rem;
+    margin: 0;
+    width: 100%;
+    border: 3px solid var(--accent);
+    border-radius: 3px;
 }
 
 .header-button {
@@ -23,7 +36,7 @@ header {
 }
 
 .header-button:hover {
-    background-color: #add8e6;
+    background-color: var(--accent);
 }
 
 .header-button.active {
@@ -33,4 +46,22 @@ header {
 
 .header-button::first-letter {
     text-transform: capitalize;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.menu-item {
+    display: flex;
+    gap: 1rem;
+    border: 3px solid var(--accent);
+    border-radius: 3px;
+    padding-right: 1rem;
+}
+
+.menu-item img {
+    width: 10rem;
 }
