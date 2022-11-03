@@ -1,7 +1,7 @@
 import CupcakeImage from '../images/cupcakes.jpg'
 
 export default function() {
-    let home = document.createElement('home');
+    let home = document.createElement('section');
 
     let header = document.createElement('h1');
     let img = document.createElement('img');
