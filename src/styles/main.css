@@ -1,3 +1,7 @@
+html {
+    font-family: 'Segoe UI', "Open Sans", sans-serif, Tahoma, Geneva, Verdana, sans-serif;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -22,7 +26,7 @@ header {
     background-color: #add8e6;
 }
 
-.header-button .active {
+.header-button.active {
     background-color: #3d849b;
     color: white;
 }
