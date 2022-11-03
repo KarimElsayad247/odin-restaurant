@@ -1,0 +1,3 @@
+.header-button::first-letter {
+    text-transform: capitalize;
+}
